@@ -1,0 +1,12 @@
+[Unit]
+Description=irssi Service
+After=network.target
+
+[Service]
+Type=forking
+User=%i
+ExecStart=/usr/bin/screen -dmS irssi irssi
+ExecStop=/usr/bin/screen -S irssi -X quit
+
+[Install]
+WantedBy=multi-user.target
