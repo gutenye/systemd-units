@@ -1,0 +1,12 @@
+[Unit]
+Description=devmon Service
+After=network.target
+
+[Service]
+Type=simple
+User=%i
+EnvironmentFile=/etc/conf.d/devmon
+ExecStart=/usr/bin/devmon $ARGS 
+
+[Install]
+WantedBy=multi-user.target
