@@ -1,14 +1,16 @@
 systemd-units, a collection of systemd service files 
 ====================================================
 
+systemd is a system and service manager for Linux.
+
 Get Started
 -------------
 
-System level
+**System level**
 
 	systemctl start foo
 
-User level
+**User level**
 
 It writes pid, log file in `/var/<user>` directory.
 
@@ -17,7 +19,7 @@ It writes pid, log file in `/var/<user>` directory.
 Install
 -------
 
-Manually
+**Manually**
 
 	# mkdir /var/<user>
 	# chown <user>:<user> /var/<user>
