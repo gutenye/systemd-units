@@ -5,6 +5,6 @@
 /usr/bin/aria2c --enable-rpc --rpc-allow-origin-all \
   --save-session $VAR/aria2.session --input-file $VAR/aria2.session \
   --log $VAR/aria2.log \
+  --dir $DIR  \
   --daemon \
-  -d $DIR  \
   $ARGS

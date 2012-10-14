@@ -6,7 +6,7 @@ After=network.target
 Type=forking
 User=%i
 WorkingDirectory=/home/%i
-Environment=VAR=/var/$i
+Environment=VAR=/var/%i
 ExecStart=/etc/systemd/scripts/aria2-start
 
 [Install]
