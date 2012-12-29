@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=forking
 User=%i
-WorkingDirectory=/home/%i
+WorkingDirectory=%h
 Environment=VAR=/var/%i
 ExecStart=/etc/systemd/scripts/aria2-start
 
