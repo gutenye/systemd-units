@@ -1,12 +1,9 @@
 [Unit]
-Description=aria2 Service
+Description=Aria2 Service
 After=network.target
 
 [Service]
 Type=forking
-User=%i
-WorkingDirectory=%h
-Environment=VAR=/var/%i
 ExecStart=/etc/systemd/scripts/aria2-start
 
 [Install]

@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=%i
 EnvironmentFile=/etc/conf.d/devmon
-ExecStart=/usr/bin/devmon $ARGS 
+ExecStart=/usr/bin/devmon $ARGS
 
 [Install]
 WantedBy=multi-user.target
