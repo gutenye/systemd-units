@@ -5,4 +5,4 @@
 
 ## Usage
 
-  # sytemctl start devmon@<user>
+	# sytemctl start devmon@<user>

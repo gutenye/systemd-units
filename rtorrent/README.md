@@ -1,6 +1,6 @@
 ## Usage
 
-  # sytemctl start rtorrent@<user>
+	# sytemctl start rtorrent@<user>
 
 ## Install
 

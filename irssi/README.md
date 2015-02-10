@@ -1,6 +1,6 @@
 ## Usage
 
-  # sytemctl start irssi@<user>
+	# sytemctl start irssi@<user>
 
 ## Install
 
