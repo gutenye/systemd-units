@@ -3,8 +3,7 @@ Description=Aria2 Service
 After=network.target
 
 [Service]
-Type=forking
-ExecStart=/etc/systemd/scripts/aria2-start
+ExecStart=/usr/bin/aria2c --enable-rpc --rpc-listen-all --save-session %h/.config/aria2/session.lock --input-file %h/.config/aria2/session.lock --conf-path=%h/.config/aria2/aria2.conf
 
 [Install]
 WantedBy=multi-user.target

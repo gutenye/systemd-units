@@ -1,9 +1,0 @@
-#!/bin/bash
-
-. /etc/conf.d/aria2
-
-/usr/bin/aria2c --enable-rpc --rpc-allow-origin-all \
-  --save-session $HOME/.var/aria2.session --input-file $HOME/.var/aria2.session \
-  --dir $DIR  \
-  --daemon \
-  $ARGS
