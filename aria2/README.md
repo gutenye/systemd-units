@@ -7,7 +7,7 @@
 	$ touch ~/.config/aria2/session.lock
 	# cp aria2.service /etc/systemd/user
 
-## USAGE
+## Usage
 
 	$ systemctl --user start aria2
 	$ systemctl --user stop aria2
