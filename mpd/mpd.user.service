@@ -1,0 +1,8 @@
+[Unit]
+Description=mpd Service
+
+[Service]
+ExecStart=/usr/bin/mpd %h/.mpd/mpd.conf
+
+[Install]
+WantedBy=multi-user.target

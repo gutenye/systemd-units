@@ -1,31 +1,27 @@
 systemd-units, a collection of systemd service files
 ====================================================
 
-systemd is a system and service manager for Linux.
+[systemd](http://www.freedesktop.org/wiki/Software/systemd) is a system and service manager for Linux.
 
-Get Started
+Getting Started
 -------------
 
-**System level**
+**Install**
+
+	# cp foo.service /etc/systemd/system
+	# cp foo.user.service /etc/systemd/user/foo.service
+
+**Start a service**
 
 	# systemctl start foo
-
-**User level**
-
 	$ systemctl --user start foo
-
-Resources
----------
-
-* [systemd](http://www.freedesktop.org/wiki/Software/systemd): a system and service manager for Linux.
-
 
 Copyright
 ---------
 
 (the MIT License)
 
-Copyright (c) 2012 Guten
+Copyright (c) 2012-2015 Guten
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
