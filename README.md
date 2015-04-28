@@ -9,7 +9,7 @@ Getting Started
 **Install**
 
 	# cp foo.service /etc/systemd/system
-	# cp foo.user.service /etc/systemd/user/foo.service
+	# cp foo.service /etc/systemd/user
 
 **Start a service**
 
