@@ -1,0 +1,8 @@
+[Unit]
+Description=flexget
+
+[Timer]
+OnCalendar=hourly
+
+[Install]
+WantedBy=default.target

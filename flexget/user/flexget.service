@@ -1,0 +1,9 @@
+[Unit]
+Description=flex
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/flexget execute
+
+[Install]
+WantedBy=default.target
