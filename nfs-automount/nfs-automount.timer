@@ -1,5 +1,6 @@
 [Unit]
 Description=NFS Automount Timer
+After=network.target
 
 [Timer]
 OnCalendar=minutely
