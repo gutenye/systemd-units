@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp nfs-automount.service nfs-automount.timer /etc/systemd/system
+cp nfs-automount /etc/systemd/scripts

@@ -1,0 +1,12 @@
+[Unit]
+Description=AutoSSH service for port 2222
+After=network.target
+
+[Service]
+User=guten
+Environment="AUTOSSH_GATETIME=0"
+#ExecStart=/usr/bin/autossh -M 0 -f vpn
+ExecStart=/usr/bin/autossh -M 0 -q -N -o "ServerAliveInterval 60" -o "ServerAliveCountMax 3" root@vpn -v
+
+[Install]
+WantedBy=multi-user.target

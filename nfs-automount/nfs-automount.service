@@ -1,0 +1,11 @@
+[Unit]
+Description=NFS automount
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/etc/systemd/scripts/nfs-automount
+
+[Install]
+WantedBy=default.target

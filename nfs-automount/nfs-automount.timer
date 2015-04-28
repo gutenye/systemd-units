@@ -1,0 +1,10 @@
+[Unit]
+Description=NFS Automount Timer
+
+[Timer]
+OnCalendar=minutely
+AccuracySec=1m
+Persistent=true
+
+[Install]
+WantedBy=default.target
