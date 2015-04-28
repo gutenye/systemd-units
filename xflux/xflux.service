@@ -1,9 +1,0 @@
-[Unit]
-Description=Flux Service
-
-[Service]
-Enviroment=Display=:0.0
-ExecStart=/usr/bin/xflux -l 30 -g 120
-
-[Install]
-WantedBy=default.target
