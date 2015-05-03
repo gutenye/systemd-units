@@ -7,4 +7,4 @@ ExecStart=/usr/bin/screen -dmS rtorrent rtorrent
 ExecStop=/usr/bin/screen -S rtorrent -X quit
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
