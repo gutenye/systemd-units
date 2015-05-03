@@ -1,5 +1,5 @@
 [Unit]
-Description=flex
+Description=Flexget User Service by %u
 After=network.target
 
 [Service]

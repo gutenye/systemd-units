@@ -1,5 +1,5 @@
 [Unit]
-Description=NFS automount
+Description=NFS Automount Service
 After=network.target
 
 [Service]

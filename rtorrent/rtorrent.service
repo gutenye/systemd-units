@@ -1,5 +1,5 @@
 [Unit]
-Description=rtorrent Service
+Description=Rtorrent User Service by %u
 After=network.target
 
 [Service]

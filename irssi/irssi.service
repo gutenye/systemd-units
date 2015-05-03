@@ -1,5 +1,5 @@
 [Unit]
-Description=irssi Service
+Description=Irssi User Service by %u
 After=network.target
 
 [Service]

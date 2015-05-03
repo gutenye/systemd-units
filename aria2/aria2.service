@@ -1,5 +1,5 @@
 [Unit]
-Description=Aria2 Service
+Description=Aria2 User Service by %u
 After=network.target
 
 [Service]

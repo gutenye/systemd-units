@@ -1,5 +1,5 @@
 [Unit]
-Description=devmon Service
+Description=Devmon Service
 After=network.target
 
 [Service]

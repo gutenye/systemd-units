@@ -1,5 +1,5 @@
 [Unit]
-Description=Transmission BitTorrent Daemon
+Description=Transmission User Service by %u
 After=network.target
 
 [Service]

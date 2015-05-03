@@ -1,5 +1,5 @@
 [Unit]
-Description=Syncthing
+Description=Syncthing User Service by %u
 After=network.target
 
 [Service]
