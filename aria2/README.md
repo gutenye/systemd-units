@@ -3,7 +3,7 @@
 	$ mkdir -p ~/.config/aria2
 	$ edit ~/.config/aria2/aria2.conf
 	  dir=/home/USER/Downloads
-	  rpc-secret=SECRET            # you can generate a secret by `date +%s | sha256sum | base64 | head -c 32 ; echo`
+	  rpc-secret=SECRET            # you can generate a secret by `< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c32`
 	$ touch ~/.config/aria2/session.lock
 	# cp aria2.service /etc/systemd/user
 
