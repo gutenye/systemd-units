@@ -1,9 +1,0 @@
-[Unit]
-Description=Syncthing User Service by %u
-After=network.target
-
-[Service]
-ExecStart=/usr/bin/syncthing
-
-[Install]
-WantedBy=default.target
