@@ -1,7 +1,16 @@
-## Usage
+Install
+-------
 
-	# sytemctl start rtorrent@<user>
+```
+# cp rtorrent.service /etc/systemd/user
+```
 
-## Install
+Usage
+-----
 
-	# cp rtorrent@.service /etc/systemd/system
+```
+$ systemctl --user start rtorrent
+$ systemctl --user stop rtorrent
+$ systemctl --user restart rtorrent
+$ systemctl --user status rtorrent
+```

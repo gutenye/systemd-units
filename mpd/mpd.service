@@ -1,5 +1,5 @@
 [Unit]
-Description=Mpd User Service by %u
+Description=Mpd Service
 
 [Service]
 ExecStart=/usr/bin/mpd %h/.mpd/mpd.conf

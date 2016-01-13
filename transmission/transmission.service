@@ -1,5 +1,5 @@
 [Unit]
-Description=Transmission User Service by %u
+Description=Transmission Service
 After=network.target
 
 [Service]
