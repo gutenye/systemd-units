@@ -1,0 +1,8 @@
+[Unit]
+Description=Clean pacman cache packages timer
+
+[Timer]
+OnCalendar=weekly
+
+[Install]
+WantedBy=default.target

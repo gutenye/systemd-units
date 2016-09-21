@@ -1,0 +1,5 @@
+[Unit]
+Description=Clean pacman cache packages service
+
+[Service]
+ExecStart=/usr/bin/paccache -r
