@@ -1,0 +1,9 @@
+[Unit]
+Description=Shadowsocks
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/sslocal -c /etc/shadowsocks/default.json
+
+[Install]
+WantedBy=default.target
